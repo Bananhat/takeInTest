@@ -1,0 +1,59 @@
+<header
+style="background: #BF2121; "
+>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <h1 style="margin: 0">
+    <a
+    routerLink="/" routerLinkActive="active"
+      style="
+        color: #BF2121;
+        text-decoration: none;"
+    >
+      Take-In
+    </a>
+  </h1>
+
+  <div class="collapse navbar-collapse ml-4">
+    <ul class="navbar-nav mr-auto">
+      <li  class="nav-item">
+        <h3 class="nav-link">
+      <a
+      routerLink="/connexion" routerLinkActive="active"
+          style="
+            color: white;
+            text-decoration: none;"
+        >
+          Connexion
+        </a>
+        </h3>
+      </li >
+      <li  class="nav-item">
+        <h3 class="nav-link">
+      <a
+      routerLink="/inscription" routerLinkActive="active"
+          style="
+            color: white;
+            text-decoration: none;"
+        >
+          Inscription
+        </a>
+        </h3>
+      </li>
+      </ul>
+    </div>
+
+    <form class="form-inline my-2 my-lg-0">
+        <div>
+          
+            <input style = "font-family: 'Arial'" class="form-control mr-sm-2  " type="search" placeholder="Recherche" aria-label="Search" />
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          
+        </div>
+
+          <i style="color: '#BF2121'" class="fa fa-shopping-basket fa-2x ml-4" aria-hidden="true"></i>
+       
+    </form>
+    </nav>
+</header>
+
+<router-outlet></router-outlet>

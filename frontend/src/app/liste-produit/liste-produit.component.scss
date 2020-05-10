@@ -1,0 +1,112 @@
+.logo img {
+
+    width: 100%;
+
+}
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 5%;
+    z-index: 100;
+    margin-bottom: 1%;
+    display: block;
+}
+
+
+.espaceMembre
+{
+	display : flex;
+	justify-content: space-around;
+	position : absolute ;
+    left: 12%;
+    top: 6%;
+	width : 290px;
+	height : 50px;
+
+}
+.connexion
+{
+    line-height: 50px;
+	width: 150px;
+
+    
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, .2);
+    background: black;
+
+	border-radius : 25px;
+	-moz-border-radius : 25px;
+	-webkit-border-radius : 25px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000',endColorstr='#D4145A' , GradientType=1);
+}
+.inscription {
+    line-height: 50px;
+}
+.connexion p
+{
+font-family: Arial;
+color: white;
+font-size: 25px;
+text-align: center;
+}
+.inscription p
+{
+    font-family: Arial;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.search {
+    position : absolute ;
+    display: flex;
+    justify-content: space-between;
+    right: 5%;
+    width: 350px;
+    top: 6%;
+}
+.panier {
+    margin-top: -40px;
+}
+
+.categorie {
+    display : flex;
+
+}
+
+.textCategorie {
+    position: absolute;
+
+    top: 18%;
+    left: 5%;
+    font-family: Arial;
+    font-size: 30px;
+}
+.listeCategorie{
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    top: 18%;
+    left: 15%;
+    font-family: Arial;
+    font-size: 30px;
+    width: 82%;
+}
+
+.listeProduits {
+    display : flex;
+    margin-top: 3%;
+    justify-content: first baseline;
+
+    left: 2%;
+    width: 98%;
+    flex-wrap: wrap;
+}
+.listeProduits div{
+    margin-left: 3%;
+}
+
+.nav a{
+    color: black;
+}
